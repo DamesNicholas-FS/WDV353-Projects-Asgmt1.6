@@ -1,0 +1,25 @@
+{
+  "name": "live_session",
+  "version": "1.0.0",
+  "description": "Backend Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Restful API"
+  ],
+  "author": "Nicholas Dames",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "init": "^0.1.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
